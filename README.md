@@ -1,2 +1,0 @@
-# WebDevZodiac
-Webdev Zodiac Assignment
