@@ -1,6 +1,6 @@
 body {
     font-family: Arial, "sans-serif", Tahoma;
-    background: yellow;
+    background-color: #E7D063;
 }
 
 #banner img{
@@ -13,8 +13,8 @@ body {
 
 #nav {
     position: fixed;
-    top: 210px;
-    right: 100px;
+    bottom: 50px;
+    right: 50px;
 }
 
 #content {
