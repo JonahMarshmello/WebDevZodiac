@@ -5,9 +5,9 @@ body {
 
 #banner img{
     position: fixed;
-    top: 0;
-    left: 50%;
-    margin-left: -600px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
     z-index: 1;
 }
 
