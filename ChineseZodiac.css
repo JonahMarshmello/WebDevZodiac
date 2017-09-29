@@ -19,9 +19,13 @@ body {
 
 #content {
     position: relative;
-    top: 300px;
+    top: 250px;
     left: 100px;
     width: 50%
+}
+
+h1 {
+    font-family: fantasy;
 }
 
 
