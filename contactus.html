@@ -29,21 +29,24 @@
 		<form action="http://php.vncvr.ca/zodiac/" method="post">
 			<div>
 				<label for="name">Name:</label><br />
-				<input type="text" id="name" name="user-name" />
+				<input type="text" id="name" name="Name" />
 			</div>
 			<div>
 				<label for="email">Email:</label><br />
-				<input type="text" id="email" name="user-email" />
+				<input type="text" id="email" name="Email" />
 			</div>
 			<div>
 				<label for="msg">Message:</label><br />
-				<textarea id="msg" name="user-msg" rows="7" cols="30"></textarea><br />
+				<textarea id="msg" name="Comment" rows="7" cols="30"></textarea><br />
 			</div>
 			
 			<input type="submit" id="submit-button" value="Send Email" />
-			<input type="hidden" id="Student1Name" value="Jonah Marshall" />
-			<input type="hidden" id="Student2Name" value="Loretta Cheung" />
-			<input type="hidden" id="Set" value="1D" />
+			
+			<!-- hidden form information -->
+			<input type="hidden" id="Student1Name" name="Student1Name" value="Jonah Marshall" />
+			<input type="hidden" id="Student2Name" name="Student2Name" value="Loretta Cheung" />
+			<input type="hidden" id="Set" name="Set" value="1D" />
+			
 		</form>
         <br />
         <br />
