@@ -1,6 +1,8 @@
 body {
     font-family: Arial, "sans-serif", Tahoma;
-    background-color: #E7D063;
+    background-image: url("Images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #banner img{
@@ -8,14 +10,13 @@ body {
     width: 100%;
     top: 0px;
     left: 0px;
-    z-index: 2;
+    z-index: 1;
 }
 
 #nav {
     position: fixed;
     bottom: 50px;
     right: 50px;
-    z-index: 1;
 }
 
 #nav img:hover {
@@ -28,12 +29,21 @@ body {
     top: 300px;
     left: 150px;
     width: 50%;
+    background-color: #E7D063;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+    margin-bottom: 10%;
+}
+
+#float img {
+    float: right;
 }
 
 h1 {
     font-family: fantasy;
-    font-weight: bold;
     text-align: center;
+    font-size: 300%;
 }
 
 .rat {
@@ -46,7 +56,7 @@ h1 {
 }
 
 .rat:hover {
-    background-image: url(Images/rat.png)
+    background-image: url(Images/rat.png);
 }
 
 .ox {
@@ -184,7 +194,7 @@ h1 {
     width: 100px;
     height: 100px;
     display: inline-block;
-    background:transparent url(Images/default3.png) center no-repeat;
+    background:transparent url(Images/default1.png) center no-repeat;
     padding: 30px;
 }
 
