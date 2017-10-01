@@ -13,8 +13,27 @@
         <a href="index.html" alt="Home"><img src="Images/HomePage.png"></a><br /><br />
         <a href="12signs.html" alt="12 Signs"><img src="Images/12signs.png"></a><br /><br />
         <a href="contactus.html" alt="Contact Us"><img src="Images/ContactUs.png"></a><br />
-        </div>
-        <div id="content">
-            <h1>Contact Us</h1>
+	</div>
+	<div id="content">
+		<h1>Contact Us</h1>
+		<form action="http://php.vncvr.ca/zodiac/" method="post">
+			<div>
+				<label for="name">Name:</label><br />
+				<input type="text" id="name" name="user-name" />
+			</div>
+			<div>
+				<label for="email">Email:</label><br />
+				<input type="text" id="email" name="user-email" />
+			</div>
+			<div>
+				<label for="msg">Message:</label><br />
+				<textarea id="msg" name="user-msg" rows="7" cols="30"></textarea><br />
+			</div>
+			
+			<input type="submit" id="submit-button" value="Send Email" />
+			<input type="hidden" id="Student1Name" value="Jonah Marshall" />
+			<input type="hidden" id="Student2Name" value="Loretta Cheung" />
+			<input type="hidden" id="Set" value="1D" />
+		</form>
 </body> 
 </html>
