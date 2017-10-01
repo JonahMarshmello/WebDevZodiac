@@ -33,8 +33,164 @@ body {
 h1 {
     font-family: fantasy;
     font-weight: bold;
+    text-align: center;
 }
 
+.rat {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 105px;
+    height: 100px;
+    background:transparent url(Images/default1.png) center no-repeat;
+    padding: 30px;
+}
+
+.rat:hover {
+    background-image: url(Images/rat.png)
+}
+
+.ox {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background:transparent url(Images/default2.png) center no-repeat;
+    padding: 30px;
+}
+
+.ox:hover {
+    background-image: url(Images/ox.png)
+}
+
+.tiger {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background:transparent url(Images/default3.png) center no-repeat;
+    padding: 30px;
+}
+
+.tiger:hover {
+    background-image: url(Images/tiger.png)
+}
+
+.rabbit {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default4.png) center no-repeat;
+    padding: 30px;
+}
+
+.rabbit:hover {
+    background-image: url(Images/rabbit.png)
+}
+
+.dragon {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default2.png) center no-repeat;
+    padding: 30px;
+}
+
+.dragon:hover {
+    background-image: url(Images/dragon.png)
+}
+
+.snake {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default1.png) center no-repeat;
+    padding: 30px;
+}
+
+.snake:hover {
+    background-image: url(Images/snake.png)
+}
+
+.horse {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default3.png) center no-repeat;
+    padding: 30px;
+}
+
+.horse:hover {
+    background-image: url(Images/horse.png)
+}
+
+.ram {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default4.png) center no-repeat;
+    padding: 30px;
+}
+
+.ram:hover {
+    background-image: url(Images/ram.png)
+}
+
+.monkey {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default1.png) center no-repeat;
+    padding: 30px;
+}
+
+.monkey:hover {
+    background-image: url(Images/monkey.png)
+}
+
+.rooster {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default2.png) center no-repeat;
+    padding: 30px;
+}
+
+.rooster:hover {
+    background-image: url(Images/rooster.png)
+}
+
+.dog {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default4.png) center no-repeat;
+    padding: 30px;
+}
+
+.dog:hover {
+    background-image: url(Images/dog.png)
+}
+
+.pig {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default3.png) center no-repeat;
+    padding: 30px;
+}
+
+.pig:hover {
+    background-image: url(Images/pig.png)
+}
 
 footer {
     
