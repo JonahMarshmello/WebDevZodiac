@@ -205,6 +205,18 @@ h1 {
     background-image: url(Images/pig.png)
 }
 
-footer {
-    
+#footer { 
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    background-color: darkred;
+    bottom: 0px;
+}
+
+#footer a{
+    color: black;
+}
+
+#footer a:hover{
+    color: #E7D063;
 }
