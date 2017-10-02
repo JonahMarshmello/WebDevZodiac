@@ -1,6 +1,7 @@
 body {
     font-family: Arial, "sans-serif", Tahoma;
     background-image: url("Images/background.jpg");
+    /* Image obtained from http://pichost.me/1725784/ */
     background-attachment: fixed;
     background-size: cover;
 }
@@ -52,11 +53,13 @@ h1 {
     width: 105px;
     height: 100px;
     background:transparent url(Images/default1.png) center no-repeat;
+    /* chinese themed icons < default1/default2/default3/default4.png > obtained from https://www.shutterstock.com/image-vector/vector-yellow-flat-style-traditional-chinese-247112449 */
     padding: 30px;
 }
 
 .rat:hover {
     background-image: url(Images/rat.png);
+    /* Animal vector images obtained from https://astroshiopedia.blogspot.ca/2015/12/ingin-pindah-kerja-di-tahun-monyet-api.html */
 }
 
 .ox {
